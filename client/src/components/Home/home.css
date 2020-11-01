@@ -1,0 +1,121 @@
+.home-Home{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(105,105,105,1) 0%, rgba(255,255,103,1) 0%, rgba(255,243,121,1) 40%, rgba(255,255,125,1) 62%, rgba(65,65,29,1) 97%),
+
+    
+}
+
+.ui.small.image, .ui.small.images .image, .ui.small.images img, .ui.small.images svg {
+    width: 150px;
+    height: 170px;
+    font-size: .92857143rem;
+}
+.w-100 {
+    width: 100%!important;
+    height: 300px;
+}
+
+.ui.column.grid>[class*="four wide"].column, .ui.grid>.column.row>[class*="four wide"].column, .ui.grid>.row>[class*="four wide"].column, .ui.grid>[class*="four wide"].column {
+    margin-top: 25px;
+}
+
+.productos{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+    margin-top: 24px;
+    padding-bottom: 32px;
+    height: 20px;
+    background-color: transparent;
+}
+.home-paginacion{
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin: 17px;
+}
+
+.ui.cards {
+    display: flex;
+    margin: -.875em -.5em;
+    flex-wrap: wrap;
+    margin-left: 135px;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0%;
+}
+
+    .ui.card .content img, .ui.cards>.card .content img {
+    align-self: center;
+}
+
+
+
+
+.home-header{
+    padding:20px;
+}
+.home-priceCard{
+    padding-left: 17px;
+    font-size: 15px;
+    color: black;
+    
+}
+.home-price{
+    display: flex;
+    align-items: baseline;
+}
+
+.ui.button {
+    background: white;
+    color: black;
+    border-color: #E0FA02;
+    border-style: solid;
+    
+}
+
+.ui.inverted.yellow.button, .ui.inverted.yellow.buttons .button {
+    background-color: black;
+    box-shadow: 0 0 0 2px #ffe21f inset!important;
+    color: #ffe21f;
+    /* width: 107px; */
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: row;
+}
+
+.contenedor{
+    display: flex;
+    direction: column;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(222,222,58,1) 2%, rgba(255,255,71,1) 68%, rgba(65,65,29,1) 97%);
+}
+
+
+.categTitle{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-style: double;
+    margin-top: 1.8rem;
+    margin-bottom: .5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;   
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.3em;
+}

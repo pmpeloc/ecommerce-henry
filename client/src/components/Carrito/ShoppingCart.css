@@ -1,0 +1,87 @@
+.shopping-content{
+    height: 20vh;
+}
+.shopping_subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border:1px solid #dddddd;
+    border-radius: 3px;
+    margin-left: 876px;
+    position: sticky;
+    top: 70px;
+    
+
+}
+.shopping_subtotal > button{
+    background: #ff0;
+    border: 1px solid;
+    border-radius: 7px;
+    width: 100%;
+    height: 30px;
+    
+    margin-top: 10px;
+    color: #111;
+
+
+}
+
+.shopping_vaciar {
+    width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .buy_button {
+   position: relative;
+   left: 1200px;
+   height: 30px;
+   bottom: 10px;
+  }
+
+  .x {
+	position: relative;
+	width: 23px;
+	height: 23px;
+	border: 2px solid #eef5df;
+	background-color: #ff5248;
+	border-radius: 50%;
+	}
+.x::before, .x::after {
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	width: 13px;
+	height: 3px;
+	content: "";
+	background-color: #eef5df;
+	display: none;
+	}
+.x::before {
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	}
+.x::after {
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	}
+.x:hover { cursor: pointer; }
+.x:hover::before, .x:hover::after { display: block; }
+
+  
